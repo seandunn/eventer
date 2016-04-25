@@ -1,0 +1,8 @@
+<li>
+  <h2><%= event.name %></h2>
+  <p><%= event.description %></p>
+  <% if event.sponsors %>
+    <h3>Sponsored by:</h3>
+    <ul><%= render partial: 'sponsor', collection: event.sponsors %></ul>
+  <% end %>
+</li>
