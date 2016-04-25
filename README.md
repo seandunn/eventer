@@ -11,5 +11,5 @@ rails server
 
 The default username and password are
 
-* **Username**: admin@exapmle.com
+* **Username**: admin@example.com
 * **Password**: password
